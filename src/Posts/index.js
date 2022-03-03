@@ -50,7 +50,7 @@ function Posts() {
         const url = "https://motion.propulsion-home.ch/backend/api/social/posts/?limit=25"
         const method = 'GET'
 
-        const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ0NjY5NDI0LCJqdGkiOiI1ZDM2Y2RhMTZhZDg0Njg3YWYyZDM2YjYyOThiNTdhNCIsInVzZXJfaWQiOjExNDB9.zZTB51ukivDkJ8iKLVqZVQkzjd7tf1DmgSrwzeGuAt8'
+        const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQ2NDk5OTQ3LCJqdGkiOiI4Zjc1YTYzYWZjZjY0OTc0OWMyMDdlOGUxOTM3NTBjOCIsInVzZXJfaWQiOjExNDB9.SXCUtrEe5WYXqk0hLLuqk-TchzcLBmuQ9nMtpC-EYwA'
 
         const headers = new Headers({
             authorization: `Bearer ${token}`
